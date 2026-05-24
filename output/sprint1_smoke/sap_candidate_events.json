@@ -1,0 +1,77 @@
+[
+  {
+    "event_type": "maintenance_alert_candidate",
+    "device_id": "UCI_HYDRAULIC_RIG_001",
+    "cycle_id": 1,
+    "plant": "UCI_TEST_RIG",
+    "source_timestamp": "2026-01-01T00:00:00Z",
+    "processed_at": "2026-01-01T00:00:01Z",
+    "severity": "high",
+    "conditions": [
+      "cooler_condition_3pct",
+      "unstable_cycle"
+    ],
+    "recommended_action": "manual_review_before_sap_pm",
+    "quality_status": "valid"
+  },
+  {
+    "event_type": "maintenance_alert_candidate",
+    "device_id": "UCI_HYDRAULIC_RIG_001",
+    "cycle_id": 2,
+    "plant": "UCI_TEST_RIG",
+    "source_timestamp": "2026-01-01T00:01:00Z",
+    "processed_at": "2026-01-01T00:01:01Z",
+    "severity": "high",
+    "conditions": [
+      "cooler_condition_3pct",
+      "unstable_cycle"
+    ],
+    "recommended_action": "manual_review_before_sap_pm",
+    "quality_status": "valid"
+  },
+  {
+    "event_type": "maintenance_alert_candidate",
+    "device_id": "UCI_HYDRAULIC_RIG_001",
+    "cycle_id": 3,
+    "plant": "UCI_TEST_RIG",
+    "source_timestamp": "2026-01-01T00:02:00Z",
+    "processed_at": "2026-01-01T00:02:01Z",
+    "severity": "high",
+    "conditions": [
+      "cooler_condition_3pct",
+      "unstable_cycle"
+    ],
+    "recommended_action": "manual_review_before_sap_pm",
+    "quality_status": "valid"
+  },
+  {
+    "event_type": "maintenance_alert_candidate",
+    "device_id": "UCI_HYDRAULIC_RIG_001",
+    "cycle_id": 4,
+    "plant": "UCI_TEST_RIG",
+    "source_timestamp": "2026-01-01T00:03:00Z",
+    "processed_at": "2026-01-01T00:03:01Z",
+    "severity": "high",
+    "conditions": [
+      "cooler_condition_3pct",
+      "unstable_cycle"
+    ],
+    "recommended_action": "manual_review_before_sap_pm",
+    "quality_status": "valid"
+  },
+  {
+    "event_type": "maintenance_alert_candidate",
+    "device_id": "UCI_HYDRAULIC_RIG_001",
+    "cycle_id": 5,
+    "plant": "UCI_TEST_RIG",
+    "source_timestamp": "2026-01-01T00:04:00Z",
+    "processed_at": "2026-01-01T00:04:01Z",
+    "severity": "high",
+    "conditions": [
+      "cooler_condition_3pct",
+      "unstable_cycle"
+    ],
+    "recommended_action": "manual_review_before_sap_pm",
+    "quality_status": "valid"
+  }
+]

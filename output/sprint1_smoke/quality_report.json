@@ -1,0 +1,101 @@
+{
+  "dataset": "uci_hydraulic",
+  "cycles_processed": 5,
+  "sensors_processed": 17,
+  "quality_status_counts": {
+    "valid": 5
+  },
+  "candidate_events": 5,
+  "sampling_integrity": [
+    {
+      "sensor_id": "PS1",
+      "sampling_rate_hz": 100,
+      "expected_samples_per_cycle": 6000
+    },
+    {
+      "sensor_id": "PS2",
+      "sampling_rate_hz": 100,
+      "expected_samples_per_cycle": 6000
+    },
+    {
+      "sensor_id": "PS3",
+      "sampling_rate_hz": 100,
+      "expected_samples_per_cycle": 6000
+    },
+    {
+      "sensor_id": "PS4",
+      "sampling_rate_hz": 100,
+      "expected_samples_per_cycle": 6000
+    },
+    {
+      "sensor_id": "PS5",
+      "sampling_rate_hz": 100,
+      "expected_samples_per_cycle": 6000
+    },
+    {
+      "sensor_id": "PS6",
+      "sampling_rate_hz": 100,
+      "expected_samples_per_cycle": 6000
+    },
+    {
+      "sensor_id": "EPS1",
+      "sampling_rate_hz": 100,
+      "expected_samples_per_cycle": 6000
+    },
+    {
+      "sensor_id": "FS1",
+      "sampling_rate_hz": 10,
+      "expected_samples_per_cycle": 600
+    },
+    {
+      "sensor_id": "FS2",
+      "sampling_rate_hz": 10,
+      "expected_samples_per_cycle": 600
+    },
+    {
+      "sensor_id": "TS1",
+      "sampling_rate_hz": 1,
+      "expected_samples_per_cycle": 60
+    },
+    {
+      "sensor_id": "TS2",
+      "sampling_rate_hz": 1,
+      "expected_samples_per_cycle": 60
+    },
+    {
+      "sensor_id": "TS3",
+      "sampling_rate_hz": 1,
+      "expected_samples_per_cycle": 60
+    },
+    {
+      "sensor_id": "TS4",
+      "sampling_rate_hz": 1,
+      "expected_samples_per_cycle": 60
+    },
+    {
+      "sensor_id": "VS1",
+      "sampling_rate_hz": 1,
+      "expected_samples_per_cycle": 60
+    },
+    {
+      "sensor_id": "CE",
+      "sampling_rate_hz": 1,
+      "expected_samples_per_cycle": 60
+    },
+    {
+      "sensor_id": "CP",
+      "sampling_rate_hz": 1,
+      "expected_samples_per_cycle": 60
+    },
+    {
+      "sensor_id": "SE",
+      "sampling_rate_hz": 1,
+      "expected_samples_per_cycle": 60
+    }
+  ],
+  "notes": [
+    "Cycle-level normalization preserves original sampling rates.",
+    "No upsampling or synthetic sensor readings are created.",
+    "SAP events are candidates only; Sprint 1 does not integrate with SAP."
+  ]
+}
